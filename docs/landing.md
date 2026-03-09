@@ -1,34 +1,34 @@
 # GitHub Profile Landing
 
-![Profile cover](../assets/covers/cover.svg)
+This repo is the front door for the public project set. It exists to help a recruiter or hiring manager understand the work quickly, then choose which repo to open next.
 
-## What This Is
+## What A Reader Should Learn Fast
 
-This profile repo is the portfolio entry point for the public project set: geospatial systems, operator interfaces, and frontier-AI workflow investigation.
-
-## Who It Is For
-
-This repo is for recruiters, collaborators, and technical reviewers who need the portfolio story before they dive into the individual repos.
-
-## Why This Exists
-
-A strong GitHub presence is not a dump of unrelated repositories. This profile exists to make the through-line explicit: geo/defense systems work, operator-facing software, and AI orchestration that is built for evaluation and supervision.
-
-## Visual Tour
-
-![Featured project grid](../assets/screenshots/featured-grid-preview.svg)
-The featured grid preview shows how the portfolio should feel at first glance: focused, coherent, and anchored by a small number of high-signal projects.
+- the work is grounded in real software, not concept decks
+- the strongest repos are `traffic-cams`, `satellite-challenge`, and `symphony`
+- the through-line is geospatial systems, monitoring tools, and AI workflow software
 
 ## Featured Repos
 
-- `traffic-cams`
-- `satellite-challenge`
-- `symphony`
-- `attractor`
+### Traffic Cams
+Open this first if you want the fastest picture of the product work. It is a traffic-camera monitoring app with a geographic interface, live feed handling, and an inspection flow for individual cameras.
 
-## Repo Signals
+### Satellite Challenge
+Open this if you want the most complete operational dashboard. It tracks ships and aircraft, supports replay, and keeps the UI focused on review instead of decoration.
 
-- concise identity statement
-- four clearly framed flagship projects
-- public-safe contact placeholders
-- reusable project blurbs for the final profile page
+### Symphony
+Open this if you want to see workflow and AI systems work. The value here is not "AI" as a slogan. It is the practical work around state, verification, and control.
+
+## Secondary Repo
+
+### Attractor
+This is the most infrastructure-heavy project in the set. It is useful once the reader understands the top three and wants to see the workflow engine side of the portfolio.
+
+## Writing Notes
+
+The profile copy should stay plain:
+
+- explain the repo before explaining the portfolio
+- use short concrete descriptions
+- keep the first screen readable without supporting docs
+- avoid synthetic hero language and internal positioning jargon

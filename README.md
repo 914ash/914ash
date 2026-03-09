@@ -1,51 +1,44 @@
 # 914ash
 
-![Profile cover](assets/covers/cover.svg)
+I build geospatial software, monitoring tools, and AI workflow systems.
 
-Geo/defense systems builder focused on frontier AI investigation, evaluation, and operator-facing tools.
-
-![Featured project grid](assets/screenshots/featured-grid-preview.svg)
-
-See [docs/landing.md](docs/landing.md) for the full profile landing copy and featured-project framing.
-
-I build software at the intersection of geospatial awareness, workflow orchestration, and applied AI. My portfolio emphasizes two things:
-
-- systems for monitoring, command, and decision support
-- hands-on investigation of frontier AI behavior, orchestration, and verification
+This profile is the short version. If you are scanning for real product work, start with the three repos below. They show live map interfaces, operational dashboards, and the infrastructure behind agent-driven systems.
 
 ## Featured Work
 
 ### Traffic Cams
-3D traffic-camera monitoring prototype with realtime aggregation, geospatial rendering, and mission-control UX.  
-Repo: `traffic-cams`
+`traffic-cams` is a live traffic-camera monitoring app. It pulls camera feeds from public sources, maps them onto a geographic view, and gives an operator a fast way to inspect what is happening at a specific location.
+
+Why open it: it is the clearest example here of turning messy public data into a usable interface.
 
 ### Satellite Challenge
-Realtime maritime and aviation tracking dashboard with replay controls and a tactical operator surface.  
-Repo: `satellite-challenge`
+`satellite-challenge` is a tracking dashboard for maritime and aviation activity. It combines live entity feeds, replay controls, and an operator review surface instead of treating the map as a generic data backdrop.
+
+Why open it: it shows the strongest end-to-end app in the set, with a clean split between data ingestion and the web interface.
 
 ### Symphony
-Fork-oriented Symphony implementation focused on verification gating, observability, and workflow control for autonomous execution.  
-Repo: `symphony`
+`symphony` is a TypeScript fork of the Symphony workflow service. The work here focuses on visible run state, safer completion rules, and clearer control over autonomous execution.
+
+Why open it: it shows how I approach AI systems when trust and supervision matter more than novelty.
+
+## More Work
 
 ### Attractor
-DOT-based AI pipeline engine for graph-shaped workflows, multi-provider model routing, and agent orchestration.  
-Repo: `attractor`
+`attractor` is a Python workflow engine for graph-based AI pipelines. It is more infrastructure-heavy than the three repos above, but it shows how I think about orchestration, execution control, and tool-driven agent systems.
 
-## Why This Profile Exists
+## What I Work On
 
-This profile is meant to function like a portfolio front door. A reviewer should be able to understand the through-line in under a minute: geospatial systems, operator tooling, and frontier-AI orchestration applied to defense-adjacent workflows.
+- geospatial interfaces and monitoring software
+- realtime systems that turn incoming data into something an operator can use
+- AI workflow and agent infrastructure with visible state and controllable execution
 
-## Focus Areas
+## Start Here
 
-- frontier model evaluation and orchestration
-- defense-adjacent AI workflows
-- geospatial interfaces and realtime systems
-- operator trust, verification, and observability
+- [traffic-cams](docs/featured-projects.md#traffic-cams)
+- [satellite-challenge](docs/featured-projects.md#satellite-challenge)
+- [symphony](docs/featured-projects.md#symphony)
+- [more project notes](docs/featured-projects.md)
 
-## Contact
+## Links
 
-- GitHub: `https://github.com/914ash`
-- LinkedIn: `<LINKEDIN-URL>`
-- Email: `<PUBLIC-EMAIL>`
-
-See [docs/landing.md](docs/landing.md) and [docs/featured-projects.md](docs/featured-projects.md) for the full public profile package.
+- GitHub: [914ash](https://github.com/914ash)

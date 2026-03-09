@@ -19,11 +19,6 @@ Open this if you want the most complete operational dashboard. It tracks ships a
 ### Symphony
 Open this if you want to see workflow and AI systems work. The value here is not "AI" as a slogan. It is the practical work around state, verification, and control.
 
-## Secondary Repo
-
-### Attractor
-This is the most infrastructure-heavy project in the set. It is useful once the reader understands the top three and wants to see the workflow engine side of the portfolio.
-
 ## Writing Notes
 
 The profile copy should stay plain:

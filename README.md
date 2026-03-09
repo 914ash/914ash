@@ -21,9 +21,6 @@ Spec-first planning and deterministic Linear story projection layered onto Symph
 ### dprk-document-analysis-app
 DPRK sanctions-intelligence monorepo with entity-resolution and network-drift pipelines, plus analyst-facing dashboard surfaces.
 
-## Why This Profile Exists
-
-The goal is evaluability. A reviewer should be able to see the through-line in under a minute: geospatial systems, operator software, and frontier-AI orchestration with explicit controls.
 
 ## What I Work On
 

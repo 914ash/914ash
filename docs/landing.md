@@ -1,7 +1,5 @@
 # GitHub Profile Landing
 
-![Portfolio cover](../assets/covers/cover.svg)
-
 This repo is the front door for the public project set. It exists to help a reviewer understand the work quickly, then choose which repository to inspect next.
 
 ## What A Reader Should Learn Fast

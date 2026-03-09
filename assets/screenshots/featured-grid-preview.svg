@@ -1,0 +1,21 @@
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="900" rx="32" fill="#0E141C"/>
+  <rect x="40" y="40" width="1360" height="820" rx="28" fill="#131C27" stroke="#35506A"/>
+  <text x="96" y="128" fill="#F2EEE7" font-size="52" font-family="Georgia, serif">Featured portfolio set</text>
+  <text x="96" y="176" fill="#8FB5D4" font-size="22" font-family="'Courier New', monospace">geo systems / operator tooling / frontier AI workflows / sanctions analysis</text>
+  <rect x="96" y="236" width="392" height="180" rx="20" fill="#173148"/>
+  <rect x="524" y="236" width="392" height="180" rx="20" fill="#1A3550"/>
+  <rect x="952" y="236" width="392" height="180" rx="20" fill="#203A56"/>
+  <rect x="96" y="456" width="608" height="180" rx="20" fill="#27324A"/>
+  <rect x="736" y="456" width="608" height="180" rx="20" fill="#2F3B52"/>
+  <text x="126" y="300" fill="#F2EEE7" font-size="30" font-family="Georgia, serif">traffic-cams</text>
+  <text x="126" y="344" fill="#B7CADB" font-size="19" font-family="'Trebuchet MS', sans-serif">public camera feeds + map triage</text>
+  <text x="554" y="300" fill="#F2EEE7" font-size="30" font-family="Georgia, serif">satellite-challenge</text>
+  <text x="554" y="344" fill="#B7CADB" font-size="19" font-family="'Trebuchet MS', sans-serif">air/sea tracking + replay</text>
+  <text x="982" y="300" fill="#F2EEE7" font-size="30" font-family="Georgia, serif">symphony</text>
+  <text x="982" y="344" fill="#B7CADB" font-size="19" font-family="'Trebuchet MS', sans-serif">observable workflow execution</text>
+  <text x="126" y="520" fill="#F2EEE7" font-size="30" font-family="Georgia, serif">agentic-stories-to-symphony</text>
+  <text x="126" y="564" fill="#B7CADB" font-size="19" font-family="'Trebuchet MS', sans-serif">spec intake + deterministic projection</text>
+  <text x="766" y="520" fill="#F2EEE7" font-size="30" font-family="Georgia, serif">dprk-document-analysis-app</text>
+  <text x="766" y="564" fill="#B7CADB" font-size="19" font-family="'Trebuchet MS', sans-serif">sanctions intelligence toolkit</text>
+</svg>

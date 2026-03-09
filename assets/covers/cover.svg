@@ -1,0 +1,28 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#0D1218"/>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="82" y="80" width="628" height="738" rx="34" fill="#111A23" stroke="#314659"/>
+  <text x="124" y="172" fill="#F1EFE8" font-size="80" font-family="Georgia, serif">914ASH</text>
+  <text x="124" y="246" fill="#8CD9FF" font-size="24" font-family="'Courier New', monospace">GEO SYSTEMS / FRONTIER AI / OPERATOR SOFTWARE</text>
+  <text x="124" y="338" fill="#C9D4DE" font-size="31" font-family="'Trebuchet MS', sans-serif">Public portfolio focused on evaluable systems:</text>
+  <text x="124" y="380" fill="#C9D4DE" font-size="31" font-family="'Trebuchet MS', sans-serif">maps, monitoring surfaces, workflow control,</text>
+  <text x="124" y="422" fill="#C9D4DE" font-size="31" font-family="'Trebuchet MS', sans-serif">and defense-adjacent analysis tooling.</text>
+  <rect x="124" y="518" width="530" height="130" rx="24" fill="#162433" stroke="#3A566D"/>
+  <text x="160" y="582" fill="#F1EFE8" font-size="26" font-family="'Courier New', monospace">FIVE FEATURED REPOS / PRODUCT-GRADE READMES</text>
+  <text x="160" y="622" fill="#A9BDCE" font-size="22" font-family="'Courier New', monospace">clear lineage / public-safe / fast evaluator path</text>
+  <rect x="790" y="112" width="708" height="648" rx="34" fill="#0F1A26" stroke="#2E455A"/>
+  <rect x="842" y="166" width="604" height="88" rx="16" fill="#17283A"/>
+  <text x="876" y="220" fill="#8CD9FF" font-size="26" font-family="'Courier New', monospace">FEATURED SET</text>
+  <text x="876" y="304" fill="#F1EFE8" font-size="30" font-family="Georgia, serif">traffic-cams</text>
+  <text x="876" y="360" fill="#F1EFE8" font-size="30" font-family="Georgia, serif">satellite-challenge</text>
+  <text x="876" y="416" fill="#F1EFE8" font-size="30" font-family="Georgia, serif">symphony</text>
+  <text x="876" y="472" fill="#F1EFE8" font-size="30" font-family="Georgia, serif">agentic-stories-to-symphony</text>
+  <text x="876" y="528" fill="#F1EFE8" font-size="30" font-family="Georgia, serif">dprk-document-analysis-app</text>
+  <defs>
+    <linearGradient id="bg" x1="72" y1="54" x2="1510" y2="847" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F1822"/>
+      <stop offset="0.52" stop-color="#122231"/>
+      <stop offset="1" stop-color="#0B121A"/>
+    </linearGradient>
+  </defs>
+</svg>

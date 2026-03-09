@@ -1,23 +1,33 @@
 # GitHub Profile Landing
 
-This repo is the front door for the public project set. It exists to help a recruiter or hiring manager understand the work quickly, then choose which repo to open next.
+![Portfolio cover](../assets/covers/cover.svg)
+
+This repo is the front door for the public project set. It exists to help a reviewer understand the work quickly, then choose which repository to inspect next.
 
 ## What A Reader Should Learn Fast
 
 - the work is grounded in real software, not concept decks
-- the strongest repos are `traffic-cams`, `satellite-challenge`, and `symphony`
-- the through-line is geospatial systems, monitoring tools, and AI workflow software
+- the strongest repos are `traffic-cams`, `satellite-challenge`, `symphony`, `agentic-stories-to-symphony`, and `dprk-document-analysis-app`
+- the through-line is geospatial systems, monitoring tools, sanctions-analysis tooling, and frontier-AI workflow software
+
+![Featured repos](../assets/screenshots/featured-grid-preview.svg)
 
 ## Featured Repos
 
-### Traffic Cams
-Open this first if you want the fastest picture of the product work. It is a traffic-camera monitoring app with a geographic interface, live feed handling, and an inspection flow for individual cameras.
+### traffic-cams
+Open this first for the fastest picture of geospatial product work. It unifies public traffic feeds and turns them into an operator-facing camera review flow.
 
-### Satellite Challenge
-Open this if you want the most complete operational dashboard. It tracks ships and aircraft, supports replay, and keeps the UI focused on review instead of decoration.
+### satellite-challenge
+Open this for the most complete operational dashboard: maritime and aviation tracking with replay and entity-focused review.
 
-### Symphony
-Open this if you want to see workflow and AI systems work. The value here is not "AI" as a slogan. It is the practical work around state, verification, and control.
+### symphony
+Open this for workflow runtime design: visibility, verification-aware completion, and safer autonomous execution controls.
+
+### agentic-stories-to-symphony
+Open this for spec-first planning and deterministic tracker projection before execution. It shows the planning layer that feeds Symphony runs.
+
+### dprk-document-analysis-app
+Open this for defense-adjacent analysis tooling: sanctions-intelligence pipelines with explicit source lineage and analyst-facing outputs.
 
 ## Writing Notes
 

@@ -1,10 +1,6 @@
 # 914ash
 
-![Portfolio cover](assets/covers/cover.svg)
-
 I build geospatial software, operator-facing monitoring tools, and frontier-AI workflow systems for defense-adjacent use cases.
-
-![Featured repos](assets/screenshots/featured-grid-preview.svg)
 
 This is the short version. If you are scanning for product-grade work, start with the five repos below.
 

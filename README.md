@@ -37,6 +37,10 @@ DPRK sanctions-intelligence monorepo with entity-resolution and network-drift pi
 - [agentic-stories-to-symphony](docs/featured-projects.md#agentic-stories-to-symphony)
 - [dprk-document-analysis-app](docs/featured-projects.md#dprk-document-analysis-app)
 
+## Cloud Workspace Demo
+
+A tiny runnable demo project is available in `demo_project/` for cloud smoke testing with deterministic behavior and unit tests.
+
 ## Links
 
 - GitHub: [914ash](https://github.com/914ash)

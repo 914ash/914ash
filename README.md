@@ -1,47 +1,59 @@
-# 914ash
+# Applied Systems Portfolio
 
-I build geospatial software, operator-facing monitoring tools, and frontier-AI workflow systems for defense-adjacent use cases.
+Geospatial monitoring tools, analyst-facing research software, and agentic workflow systems built for environments that need visible state, explicit review paths, and reproducible behavior.
 
-This is the short version. If you are scanning for product-grade work, start with the five repos below.
+This portfolio emphasizes working software over concept pieces. The strongest repositories show operator-facing maps, planning-to-execution infrastructure, and public-safe analysis tooling with clear provenance.
 
-## Featured Work
+## About
 
-### traffic-cams
-Traffic camera monitoring across public feeds with a map-first review surface and fast camera inspection flow.
+The through-line across these projects is operational judgment: make the state visible, keep the interfaces legible, and avoid hiding critical decisions behind opaque automation. The portfolio leans toward systems that support review, triage, and structured handoff rather than one-off demos.
 
-### satellite-challenge
-Maritime and aviation tracking dashboard with replay and operator review.
+## Featured Projects
 
-### symphony
-Workflow-service fork focused on visible run state, verification-aware completion, and safer autonomous execution controls.
+### [traffic-cams](https://github.com/914ash/traffic-cams)
+Map-first review tool for public traffic-camera networks. Built with Node.js, React, TypeScript, and WebSockets. It matters because it turns fragmented public feeds into one operator workflow with a reproducible demo path.
 
-### agentic-stories-to-symphony
-Spec-first planning and deterministic Linear story projection layered onto Symphony execution.
+### [satellite-challenge](https://github.com/914ash/satellite-challenge)
+Maritime and aviation tracking dashboard with replay, shared contracts, and entity review. Built with a TypeScript API, a React web app, and shared types. It matters because it is the clearest end-to-end operational interface in the portfolio.
 
-### dprk-document-analysis-app
-DPRK sanctions-intelligence monorepo with entity-resolution and network-drift pipelines, plus analyst-facing dashboard surfaces.
+### [symphony](https://github.com/914ash/symphony)
+TypeScript workflow-service fork for long-running coding-agent execution with visible run state and guarded completion. Built around Node.js, Linear integration, and an operator dashboard. It matters because it focuses on inspectability and safer automation, not just task dispatch.
 
+### [agentic-stories-to-symphony](https://github.com/914ash/agentic-stories-to-symphony)
+Spec-first planning layer that captures intent, stores approved revisions, and projects deterministic Linear stories before execution. Built with TypeScript and a terminal-first workflow. It matters because it treats planning as a first-class system boundary instead of an informal pre-step.
 
-## What I Work On
+### [dprk-document-analysis-app](https://github.com/914ash/dprk-document-analysis-app)
+Public sanctions-analysis monorepo with analyst-facing dashboards, entity resolution, and temporal network-drift tooling. Built with Python services, a browser dashboard, and Docker-based workflows. It matters because it keeps method, lineage, and reviewer-facing outputs in the same public surface.
 
-- geospatial interfaces and monitoring software
-- realtime ingest-to-interface systems
-- AI workflow and agent infrastructure with visible state and controllable execution
-- defense-adjacent analysis and decision-support tooling
+### [intelligence-analysis-skill-pack](https://github.com/914ash/intelligence-analysis-skill-pack)
+Experiment in teaching AI agents structured analytic tradecraft for intelligence-style analysis using methods, references, and writing patterns gathered from public web sources. It matters because it packages analytical method as a reusable artifact rather than leaving it trapped inside one-off prompts.
 
-## Start Here
+## Additional Projects
 
-- [traffic-cams](docs/featured-projects.md#traffic-cams)
-- [satellite-challenge](docs/featured-projects.md#satellite-challenge)
-- [symphony](docs/featured-projects.md#symphony)
-- [agentic-stories-to-symphony](docs/featured-projects.md#agentic-stories-to-symphony)
-- [dprk-document-analysis-app](docs/featured-projects.md#dprk-document-analysis-app)
+- [attractor-workflow-demo](https://github.com/914ash/attractor-workflow-demo): Demo repository showing a DOT-defined AI workflow that moves from requirements capture through implementation and browser validation.
+- [LlamaIndex-RAG-Linux-CUDA](https://github.com/914ash/LlamaIndex-RAG-Linux-CUDA): Archived notebook set for local RAG experiments on Linux with CUDA-backed local models.
+- [private-gpt](https://github.com/914ash/private-gpt): Reference copy of an upstream PrivateGPT codebase snapshot kept for local experimentation, not presented as an original portfolio centerpiece.
 
-## Cloud Workspace Demo
+## Focus Areas
 
-A tiny runnable demo project is available in `demo_project/` for cloud smoke testing with deterministic behavior and unit tests.
+- Geospatial monitoring and operator-facing decision-support interfaces
+- Agentic workflow infrastructure with visible runtime state and explicit gates
+- Defense-adjacent research tooling with documented provenance and review paths
+- Reusable workflow packs and structured analytical methods
 
-## Links
+## Selected Tools
 
-- GitHub: [914ash](https://github.com/914ash)
-- Full landing notes: [docs/landing.md](docs/landing.md)
+- TypeScript
+- Node.js
+- React
+- Python
+- FastAPI
+- Docker
+- WebSockets
+- Linear integrations
+- Geospatial UI tooling
+- Retrieval and workflow-oriented AI systems
+
+## Project Notes
+
+See [docs/featured-projects.md](docs/featured-projects.md) for status labels, stack summaries, and project-by-project rationale.

@@ -10,8 +10,10 @@ The through-line across these projects is operational judgment: make the state v
 
 ## Featured Projects
 
-### [traffic-cams](https://github.com/914ash/traffic-cams)
-Map-first review tool for public traffic-camera networks. Built with Node.js, React, TypeScript, and WebSockets. It matters because it turns fragmented public feeds into one operator workflow with a reproducible demo path.
+
+### [intelligence-analysis-skill-pack](https://github.com/914ash/intelligence-analysis-skill-pack)
+Experiment in teaching AI agents structured analytic tradecraft for intelligence-style analysis using methods, references, and writing patterns gathered from public web sources. It matters because it packages analytical method as a reusable artifact rather than leaving it trapped inside one-off prompts.
+
 
 ### [satellite-challenge](https://github.com/914ash/satellite-challenge)
 Maritime and aviation tracking dashboard with replay, shared contracts, and entity review. Built with a TypeScript API, a React web app, and shared types. It matters because it is the clearest end-to-end operational interface in the portfolio.
@@ -24,9 +26,6 @@ Spec-first planning layer that captures intent, stores approved revisions, and p
 
 ### [dprk-document-analysis-app](https://github.com/914ash/dprk-document-analysis-app)
 Public sanctions-analysis monorepo with analyst-facing dashboards, entity resolution, and temporal network-drift tooling. Built with Python services, a browser dashboard, and Docker-based workflows. It matters because it keeps method, lineage, and reviewer-facing outputs in the same public surface.
-
-### [intelligence-analysis-skill-pack](https://github.com/914ash/intelligence-analysis-skill-pack)
-Experiment in teaching AI agents structured analytic tradecraft for intelligence-style analysis using methods, references, and writing patterns gathered from public web sources. It matters because it packages analytical method as a reusable artifact rather than leaving it trapped inside one-off prompts.
 
 ## Additional Projects
 

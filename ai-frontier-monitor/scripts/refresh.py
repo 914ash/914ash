@@ -65,8 +65,16 @@ def record_frontier(records: list[dict]) -> list[dict]:
     return result
 
 
-def compile_snapshot(raw: str, checked: dt.datetime | None = None) -> dict:
+def compile_snapshot(raw: str, checked: dt.datetime | None = None,
+                     source_http_last_modified: str | None = None,
+                     previous: dict | None = None) -> dict:
     checked = checked or dt.datetime.now(dt.timezone.utc)
+    previous = previous or {}
+    source_sha = hashlib.sha256(raw.encode("utf-8")).hexdigest()
+    if previous.get("sha256_source_csv") == source_sha:
+        source_changed = previous.get("source_changed_at_utc") or previous.get("retrieved_at_utc")
+    else:
+        source_changed = checked.isoformat(timespec="seconds")
     reader = csv.DictReader(io.StringIO(raw))
     required = {"Model", "date", "eci", "eci_ci_low", "eci_ci_high", "Country (of organization)", "Organization"}
     if not reader.fieldnames or not required.issubset(set(reader.fieldnames)):
@@ -114,9 +122,10 @@ def compile_snapshot(raw: str, checked: dt.datetime | None = None) -> dict:
         raise ValueError(f"Computed lag {lag} months outside review thresholds")
     return {
         "retrieved_at_utc": checked.isoformat(timespec="seconds"),
-        "model_source_date": checked.date().isoformat(),
+        "source_content_last_changed_at_utc": source_changed,
+        "source_http_last_modified": source_http_last_modified,
         "source_url": ECI_CSV,
-        "sha256_source_csv": hashlib.sha256(raw.encode("utf-8")).hexdigest(),
+        "sha256_source_csv": source_sha,
         "total_rows": count,
         "observed": {
             "lead_months": lag, "target_china_eci": target,
@@ -140,9 +149,10 @@ def read_source() -> str:
     )
     with urllib.request.urlopen(req, timeout=55) as response:
         body = response.read(10_000_000)
+        source_http_last_modified = response.headers.get("Last-Modified")
     if not body or len(body) > 9_900_000:
         raise ValueError("Source missing or unexpectedly large")
-    return body.decode("utf-8-sig")
+    return body.decode("utf-8-sig"), source_http_last_modified
 
 
 def main() -> None:
@@ -151,9 +161,16 @@ def main() -> None:
     parser.add_argument("--csv", help="Use local CSV as a test fixture")
     parser.add_argument("--out", default=str(BASE / "data/latest.json"))
     args = parser.parse_args()
-    raw = Path(args.csv).read_text(encoding="utf-8") if args.csv else read_source()
-    result = compile_snapshot(raw)
     dest = Path(args.out)
+    previous = {}
+    if dest.exists():
+        try:
+            previous = json.loads(dest.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            pass
+    raw, last_modified = ((Path(args.csv).read_text(encoding="utf-8"), None)
+                          if args.csv else read_source())
+    result = compile_snapshot(raw, source_http_last_modified=last_modified, previous=previous)
     dest.parent.mkdir(parents=True, exist_ok=True)
     temporary = dest.with_suffix(".tmp")
     temporary.write_text(json.dumps(result, indent=2, ensure_ascii=False)+"\n", encoding="utf-8")

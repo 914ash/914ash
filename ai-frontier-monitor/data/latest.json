@@ -1,0 +1,364 @@
+{
+  "retrieved_at_utc": "2026-10-29T14:35:00Z",
+  "source_url": "https://epoch.ai/data/eci_scores.csv",
+  "model_source_date": "2026-10-28",
+  "total_rows": 270,
+  "observed": {
+    "lead_months": 7.186483511027067,
+    "target_china_eci": 157.86,
+    "regions": {
+      "US": {
+        "frontier": [
+          {
+            "date": "2024-01-25",
+            "eci": 126.43,
+            "name": "GPT-4 Turbo (Nov 2023)",
+            "org": "OpenAI",
+            "lo": 121.25,
+            "hi": 128.46
+          },
+          {
+            "date": "2024-02-29",
+            "eci": 126.9,
+            "name": "Claude 3 Opus",
+            "org": "Anthropic",
+            "lo": 122.38,
+            "hi": 129.96
+          },
+          {
+            "date": "2024-04-09",
+            "eci": 127.27,
+            "name": "GPT-4 Turbo (Apr 2024)",
+            "org": "OpenAI",
+            "lo": 122.35,
+            "hi": 128.78
+          },
+          {
+            "date": "2024-05-13",
+            "eci": 128.99,
+            "name": "GPT-4o (May 2024)",
+            "org": "OpenAI",
+            "lo": 124.62,
+            "hi": 131.23
+          },
+          {
+            "date": "2024-06-20",
+            "eci": 130,
+            "name": "Claude 3.5 Sonnet",
+            "org": "Anthropic",
+            "lo": 0,
+            "hi": 0
+          },
+          {
+            "date": "2024-09-12",
+            "eci": 135.7,
+            "name": "o1-mini",
+            "org": "OpenAI",
+            "lo": 132.36,
+            "hi": 137.17
+          },
+          {
+            "date": "2024-12-17",
+            "eci": 141.72,
+            "name": "o1",
+            "org": "OpenAI",
+            "lo": 139.71,
+            "hi": 142.94
+          },
+          {
+            "date": "2025-03-31",
+            "eci": 143.96,
+            "name": "Gemini 2.5 Pro (Mar 2025)",
+            "org": "Google DeepMind",
+            "lo": 141.74,
+            "hi": 146.84
+          },
+          {
+            "date": "2025-04-16",
+            "eci": 146.73,
+            "name": "o3",
+            "org": "OpenAI",
+            "lo": 144.83,
+            "hi": 148.52
+          },
+          {
+            "date": "2025-06-10",
+            "eci": 147.33,
+            "name": "o3-pro",
+            "org": "OpenAI",
+            "lo": 145.56,
+            "hi": 150.1
+          },
+          {
+            "date": "2025-08-07",
+            "eci": 150,
+            "name": "GPT-5",
+            "org": "OpenAI",
+            "lo": 0,
+            "hi": 0
+          },
+          {
+            "date": "2025-10-07",
+            "eci": 150.59,
+            "name": "GPT-5 Pro",
+            "org": "OpenAI",
+            "lo": 148.94,
+            "hi": 154.18
+          },
+          {
+            "date": "2025-11-18",
+            "eci": 153.07,
+            "name": "Gemini 3 Pro",
+            "org": "Google DeepMind",
+            "lo": 151.06,
+            "hi": 155.42
+          },
+          {
+            "date": "2025-12-11",
+            "eci": 156.33,
+            "name": "GPT-5.2 Pro",
+            "org": "OpenAI",
+            "lo": 153.89,
+            "hi": 159.98
+          },
+          {
+            "date": "2026-02-05",
+            "eci": 157.09,
+            "name": "GPT-5.3 Codex",
+            "org": "OpenAI",
+            "lo": 153.56,
+            "hi": 161.38
+          },
+          {
+            "date": "2026-03-05",
+            "eci": 159.57,
+            "name": "GPT-5.4 Pro",
+            "org": "OpenAI",
+            "lo": 157.1,
+            "hi": 162.7
+          },
+          {
+            "date": "2026-04-23",
+            "eci": 162.91,
+            "name": "GPT-5.5 Pro",
+            "org": "OpenAI",
+            "lo": 160.04,
+            "hi": 166.6
+          },
+          {
+            "date": "2026-06-09",
+            "eci": 163.42,
+            "name": "Claude Fable 5",
+            "org": "Anthropic",
+            "lo": 160.53,
+            "hi": 168.18
+          },
+          {
+            "date": "2026-07-24",
+            "eci": 163.94,
+            "name": "Claude Opus 5",
+            "org": "Anthropic",
+            "lo": 161.12,
+            "hi": 168.24
+          },
+          {
+            "date": "2026-09-01",
+            "eci": 166.49,
+            "name": "Claude Fable 5.1",
+            "org": "Anthropic",
+            "lo": 163.47,
+            "hi": 171.35
+          },
+          {
+            "date": "2026-09-03",
+            "eci": 168.81,
+            "name": "GPT-6 Astra",
+            "org": "OpenAI",
+            "lo": 165.45,
+            "hi": 174.51
+          },
+          {
+            "date": "2026-09-22",
+            "eci": 168.83,
+            "name": "Claude Opus 5.5",
+            "org": "Anthropic",
+            "lo": 165.25,
+            "hi": 173.95
+          }
+        ],
+        "fit": {
+          "slope": 1.3513287835468797,
+          "intercept": 124.00408262039326,
+          "r2": 0.9931978628435884,
+          "n": 22
+        },
+        "models_in_scope": 138,
+        "latest_release": "2026-09-22"
+      },
+      "CN": {
+        "frontier": [
+          {
+            "date": "2024-05-07",
+            "eci": 124.8,
+            "name": "DeepSeek-V2 (MoE-236B, May 2024)",
+            "org": "DeepSeek",
+            "lo": 118.76,
+            "hi": 127.84
+          },
+          {
+            "date": "2024-06-07",
+            "eci": 125.28,
+            "name": "Qwen2-72B",
+            "org": "Alibaba",
+            "lo": 119.09,
+            "hi": 126.9
+          },
+          {
+            "date": "2024-09-19",
+            "eci": 128.97,
+            "name": "Qwen2.5-72B",
+            "org": "Alibaba",
+            "lo": 123.48,
+            "hi": 130.73
+          },
+          {
+            "date": "2024-12-26",
+            "eci": 132.3,
+            "name": "DeepSeek-V3",
+            "org": "DeepSeek",
+            "lo": 128.06,
+            "hi": 135.23
+          },
+          {
+            "date": "2025-01-20",
+            "eci": 138.82,
+            "name": "DeepSeek-R1",
+            "org": "DeepSeek",
+            "lo": 136.04,
+            "hi": 140.21
+          },
+          {
+            "date": "2025-04-28",
+            "eci": 139.15,
+            "name": "Qwen3-235B-A22B",
+            "org": "Alibaba",
+            "lo": 134.62,
+            "hi": 140.53
+          },
+          {
+            "date": "2025-05-28",
+            "eci": 141.13,
+            "name": "DeepSeek-R1 (May 2025)",
+            "org": "DeepSeek",
+            "lo": 139.05,
+            "hi": 142.66
+          },
+          {
+            "date": "2025-07-25",
+            "eci": 143.76,
+            "name": "Qwen3-235B-A22B-Thinking (Jul 2025)",
+            "org": "Alibaba",
+            "lo": 141.71,
+            "hi": 145.3
+          },
+          {
+            "date": "2025-09-29",
+            "eci": 144.91,
+            "name": "DeepSeek-V3.2-Exp",
+            "org": "DeepSeek",
+            "lo": 142.45,
+            "hi": 146.81
+          },
+          {
+            "date": "2025-11-06",
+            "eci": 145.82,
+            "name": "Kimi K2 Thinking",
+            "org": "Moonshot",
+            "lo": 143.22,
+            "hi": 147.51
+          },
+          {
+            "date": "2025-12-01",
+            "eci": 146.09,
+            "name": "DeepSeek-V3.2",
+            "org": "DeepSeek",
+            "lo": 144.27,
+            "hi": 147.38
+          },
+          {
+            "date": "2026-01-27",
+            "eci": 148.07,
+            "name": "Kimi K2.5",
+            "org": "Moonshot",
+            "lo": 146.55,
+            "hi": 149.52
+          },
+          {
+            "date": "2026-04-07",
+            "eci": 149.82,
+            "name": "GLM-5.1",
+            "org": "Z.ai (Zhipu AI)",
+            "lo": 147.66,
+            "hi": 151.89
+          },
+          {
+            "date": "2026-04-20",
+            "eci": 150.94,
+            "name": "Kimi K2.6",
+            "org": "Moonshot",
+            "lo": 149.04,
+            "hi": 152.72
+          },
+          {
+            "date": "2026-05-19",
+            "eci": 154.04,
+            "name": "Qwen3.7-Max",
+            "org": "Alibaba",
+            "lo": 152.3,
+            "hi": 156.5
+          },
+          {
+            "date": "2026-07-16",
+            "eci": 157.86,
+            "name": "Kimi K3",
+            "org": "Moonshot",
+            "lo": 155.11,
+            "hi": 160.63
+          }
+        ],
+        "fit": {
+          "slope": 1.1696074771451181,
+          "intercept": 120.15152654060316,
+          "r2": 0.9738112573214763,
+          "n": 16
+        },
+        "models_in_scope": 62,
+        "latest_release": "2026-07-16"
+      }
+    },
+    "method": "One point per record-setting date since 2024-01-01, equal-weight OLS on ECI over release months, horizontal gap at Chinese top ECI"
+  },
+  "ifp": {
+    "published": "2026-10-19",
+    "reported_lag_months": 6.5,
+    "training_compute_ratio": 16,
+    "distillation_share": 0.5,
+    "K": 10.796266308383927,
+    "china_stock_h100e_millions": {
+      "2026": {
+        "domestic": 1.729,
+        "legal": 0.846,
+        "smuggled": 1.004,
+        "remote": 1.054277
+      },
+      "2027": {
+        "domestic": 3.029,
+        "legal": 1.346,
+        "smuggled": 1.572,
+        "remote": 2.834351
+      }
+    },
+    "source_url": "https://ifp.org/how-to-increase-americas-ai-lead-over-china/",
+    "status": "Original paper projections, not automatically updated"
+  }
+}

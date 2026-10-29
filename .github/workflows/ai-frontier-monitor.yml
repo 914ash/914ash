@@ -1,0 +1,72 @@
+name: Refresh and publish AI Frontier Monitor
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'ai-frontier-monitor/**'
+      - '.github/workflows/ai-frontier-monitor.yml'
+  workflow_dispatch:
+  schedule:
+    - cron: '17 12 * * *'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: ai-frontier-monitor
+  cancel-in-progress: false
+
+jobs:
+  refresh-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate regression and source rules
+        run: python -m unittest discover -s ai-frontier-monitor/tests -v
+
+      - name: Download latest Epoch ECI data and recompute
+        run: python ai-frontier-monitor/scripts/refresh.py
+
+      - name: Record audited daily data revision
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ai-frontier-monitor/data/latest.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data: refresh ECI US-China AI frontier lag"
+            git push origin HEAD:main
+          fi
+
+      - name: Check GitHub Pages configuration
+        id: pages
+        uses: actions/configure-pages@v5
+        continue-on-error: true
+
+      - name: Upload dashboard
+        if: steps.pages.outcome == 'success'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ai-frontier-monitor
+
+      - name: Publish dashboard
+        if: steps.pages.outcome == 'success'
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Publication requires one-time Pages enablement
+        if: steps.pages.outcome != 'success'
+        run: echo "::warning::ECI snapshot refreshed, but GitHub Pages is not enabled for this repository. Go to Settings > Pages > Build and deployment > GitHub Actions."

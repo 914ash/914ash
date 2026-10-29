@@ -1,10 +1,11 @@
 {
-  "retrieved_at_utc": "2026-10-29T14:35:00Z",
+  "retrieved_at_utc": "2026-10-29T14:39:26+00:00",
+  "model_source_date": "2026-10-29",
   "source_url": "https://epoch.ai/data/eci_scores.csv",
-  "model_source_date": "2026-10-28",
+  "sha256_source_csv": "540796e67e6158f290edfb97a2633ca871edf9f1a89c78fc9d06cd20ca33cf64",
   "total_rows": 270,
   "observed": {
-    "lead_months": 7.186483511027067,
+    "lead_months": 7.2007946906985545,
     "target_china_eci": 157.86,
     "regions": {
       "US": {
@@ -40,14 +41,6 @@
             "org": "OpenAI",
             "lo": 124.62,
             "hi": 131.23
-          },
-          {
-            "date": "2024-06-20",
-            "eci": 130,
-            "name": "Claude 3.5 Sonnet",
-            "org": "Anthropic",
-            "lo": 0,
-            "hi": 0
           },
           {
             "date": "2024-09-12",
@@ -88,14 +81,6 @@
             "org": "OpenAI",
             "lo": 145.56,
             "hi": 150.1
-          },
-          {
-            "date": "2025-08-07",
-            "eci": 150,
-            "name": "GPT-5",
-            "org": "OpenAI",
-            "lo": 0,
-            "hi": 0
           },
           {
             "date": "2025-10-07",
@@ -187,13 +172,13 @@
           }
         ],
         "fit": {
-          "slope": 1.3513287835468797,
-          "intercept": 124.00408262039326,
-          "r2": 0.9931978628435884,
-          "n": 22
+          "slope": 1.3418264303261906,
+          "intercept": 124.26135577064494,
+          "r2": 0.9932768440126196,
+          "n": 20
         },
-        "models_in_scope": 138,
-        "latest_release": "2026-09-22"
+        "models_in_scope": 136,
+        "latest_release": "2026-10-15"
       },
       "CN": {
         "frontier": [
@@ -328,15 +313,15 @@
         ],
         "fit": {
           "slope": 1.1696074771451181,
-          "intercept": 120.15152654060316,
+          "intercept": 120.15152654060313,
           "r2": 0.9738112573214763,
           "n": 16
         },
         "models_in_scope": 62,
-        "latest_release": "2026-07-16"
+        "latest_release": "2026-09-09"
       }
     },
-    "method": "One point per record-setting date since 2024-01-01, equal-weight OLS on ECI over release months, horizontal gap at Chinese top ECI"
+    "method": "Unweighted OLS per record-setting release day since January 2024; horizontal lag at newest Chinese frontier ECI."
   },
   "ifp": {
     "published": "2026-10-19",
@@ -359,6 +344,6 @@
       }
     },
     "source_url": "https://ifp.org/how-to-increase-americas-ai-lead-over-china/",
-    "status": "Original paper projections, not automatically updated"
+    "status": "Unrefreshed original paper's estimates, not observations."
   }
 }

@@ -1,13 +1,13 @@
 {
-  "retrieved_at_utc": "2026-10-29T14:46:14+00:00",
-  "source_content_last_changed_at_utc": "2026-10-29T14:44:53+00:00",
+  "retrieved_at_utc": "2026-10-30T18:04:17+00:00",
+  "source_content_last_changed_at_utc": "2026-10-30T18:04:17+00:00",
   "source_http_last_modified": null,
   "source_url": "https://epoch.ai/data/eci_scores.csv",
-  "sha256_source_csv": "540796e67e6158f290edfb97a2633ca871edf9f1a89c78fc9d06cd20ca33cf64",
-  "total_rows": 270,
+  "sha256_source_csv": "1d524d32da51c5a1b78a2fb769c752ed2244123c7e21a2fd47a59062a5ecb134",
+  "total_rows": 273,
   "observed": {
-    "lead_months": 7.2007946906985545,
-    "target_china_eci": 157.86,
+    "lead_months": 7.308341423153031,
+    "target_china_eci": 158.65,
     "regions": {
       "US": {
         "frontier": [
@@ -16,310 +16,310 @@
             "eci": 126.43,
             "name": "GPT-4 Turbo (Nov 2023)",
             "org": "OpenAI",
-            "lo": 121.25,
-            "hi": 128.46
+            "lo": 121.53,
+            "hi": 129.23
           },
           {
             "date": "2024-02-29",
-            "eci": 126.9,
+            "eci": 126.89,
             "name": "Claude 3 Opus",
             "org": "Anthropic",
-            "lo": 122.38,
-            "hi": 129.96
+            "lo": 122.56,
+            "hi": 129.54
           },
           {
             "date": "2024-04-09",
-            "eci": 127.27,
+            "eci": 127.26,
             "name": "GPT-4 Turbo (Apr 2024)",
             "org": "OpenAI",
-            "lo": 122.35,
-            "hi": 128.78
+            "lo": 122.36,
+            "hi": 128.74
           },
           {
             "date": "2024-05-13",
             "eci": 128.99,
             "name": "GPT-4o (May 2024)",
             "org": "OpenAI",
-            "lo": 124.62,
-            "hi": 131.23
+            "lo": 124.89,
+            "hi": 131.21
           },
           {
             "date": "2024-09-12",
-            "eci": 135.7,
+            "eci": 135.71,
             "name": "o1-mini",
             "org": "OpenAI",
-            "lo": 132.36,
-            "hi": 137.17
+            "lo": 131.73,
+            "hi": 137.27
           },
           {
             "date": "2024-12-17",
-            "eci": 141.72,
+            "eci": 141.74,
             "name": "o1",
             "org": "OpenAI",
-            "lo": 139.71,
-            "hi": 142.94
+            "lo": 139.87,
+            "hi": 142.82
           },
           {
             "date": "2025-03-31",
-            "eci": 143.96,
+            "eci": 143.99,
             "name": "Gemini 2.5 Pro (Mar 2025)",
             "org": "Google DeepMind",
-            "lo": 141.74,
-            "hi": 146.84
+            "lo": 141.7,
+            "hi": 146.96
           },
           {
             "date": "2025-04-16",
-            "eci": 146.73,
+            "eci": 146.76,
             "name": "o3",
             "org": "OpenAI",
-            "lo": 144.83,
-            "hi": 148.52
+            "lo": 144.85,
+            "hi": 148.43
           },
           {
             "date": "2025-06-10",
-            "eci": 147.33,
+            "eci": 147.37,
             "name": "o3-pro",
             "org": "OpenAI",
-            "lo": 145.56,
-            "hi": 150.1
+            "lo": 145.73,
+            "hi": 150.05
           },
           {
             "date": "2025-10-07",
-            "eci": 150.59,
+            "eci": 150.66,
             "name": "GPT-5 Pro",
             "org": "OpenAI",
-            "lo": 148.94,
-            "hi": 154.18
+            "lo": 148.75,
+            "hi": 154.11
           },
           {
             "date": "2025-11-18",
-            "eci": 153.07,
+            "eci": 153.11,
             "name": "Gemini 3 Pro",
             "org": "Google DeepMind",
-            "lo": 151.06,
-            "hi": 155.42
+            "lo": 150.96,
+            "hi": 155.56
           },
           {
             "date": "2025-12-11",
-            "eci": 156.33,
+            "eci": 156.4,
             "name": "GPT-5.2 Pro",
             "org": "OpenAI",
-            "lo": 153.89,
-            "hi": 159.98
+            "lo": 153.79,
+            "hi": 160.18
           },
           {
             "date": "2026-02-05",
             "eci": 157.09,
             "name": "GPT-5.3 Codex",
             "org": "OpenAI",
-            "lo": 153.56,
-            "hi": 161.38
+            "lo": 153.37,
+            "hi": 160.8
           },
           {
             "date": "2026-03-05",
-            "eci": 159.57,
+            "eci": 159.63,
             "name": "GPT-5.4 Pro",
             "org": "OpenAI",
-            "lo": 157.1,
-            "hi": 162.7
+            "lo": 156.93,
+            "hi": 162.76
           },
           {
             "date": "2026-04-23",
             "eci": 162.91,
             "name": "GPT-5.5 Pro",
             "org": "OpenAI",
-            "lo": 160.04,
-            "hi": 166.6
+            "lo": 159.82,
+            "hi": 166.43
           },
           {
             "date": "2026-06-09",
-            "eci": 163.42,
+            "eci": 163.12,
             "name": "Claude Fable 5",
             "org": "Anthropic",
-            "lo": 160.53,
-            "hi": 168.18
+            "lo": 160.38,
+            "hi": 167.2
           },
           {
             "date": "2026-07-24",
-            "eci": 163.94,
+            "eci": 163.83,
             "name": "Claude Opus 5",
             "org": "Anthropic",
-            "lo": 161.12,
-            "hi": 168.24
+            "lo": 161.19,
+            "hi": 167.37
           },
           {
             "date": "2026-09-01",
-            "eci": 166.49,
+            "eci": 166.19,
             "name": "Claude Fable 5.1",
             "org": "Anthropic",
-            "lo": 163.47,
-            "hi": 171.35
+            "lo": 163.14,
+            "hi": 170.06
           },
           {
             "date": "2026-09-03",
-            "eci": 168.81,
+            "eci": 168.92,
             "name": "GPT-6 Astra",
             "org": "OpenAI",
-            "lo": 165.45,
-            "hi": 174.51
-          },
-          {
-            "date": "2026-09-22",
-            "eci": 168.83,
-            "name": "Claude Opus 5.5",
-            "org": "Anthropic",
-            "lo": 165.25,
-            "hi": 173.95
+            "lo": 165.27,
+            "hi": 173.93
           }
         ],
         "fit": {
-          "slope": 1.3418264303261906,
-          "intercept": 124.26135577064494,
-          "r2": 0.9932768440126196,
-          "n": 20
+          "slope": 1.3338985253676132,
+          "intercept": 124.35633921241694,
+          "r2": 0.9923900976904269,
+          "n": 19
         },
-        "models_in_scope": 136,
-        "latest_release": "2026-10-15"
+        "models_in_scope": 138,
+        "latest_release": "2026-10-26"
       },
       "CN": {
         "frontier": [
           {
             "date": "2024-05-07",
-            "eci": 124.8,
+            "eci": 124.79,
             "name": "DeepSeek-V2 (MoE-236B, May 2024)",
             "org": "DeepSeek",
-            "lo": 118.76,
-            "hi": 127.84
+            "lo": 119.52,
+            "hi": 128.34
           },
           {
             "date": "2024-06-07",
-            "eci": 125.28,
+            "eci": 125.27,
             "name": "Qwen2-72B",
             "org": "Alibaba",
-            "lo": 119.09,
-            "hi": 126.9
+            "lo": 119.61,
+            "hi": 126.98
           },
           {
             "date": "2024-09-19",
             "eci": 128.97,
             "name": "Qwen2.5-72B",
             "org": "Alibaba",
-            "lo": 123.48,
-            "hi": 130.73
+            "lo": 123.84,
+            "hi": 130.61
           },
           {
             "date": "2024-12-26",
-            "eci": 132.3,
+            "eci": 132.31,
             "name": "DeepSeek-V3",
             "org": "DeepSeek",
-            "lo": 128.06,
-            "hi": 135.23
+            "lo": 128.51,
+            "hi": 135.2
           },
           {
             "date": "2025-01-20",
-            "eci": 138.82,
+            "eci": 138.83,
             "name": "DeepSeek-R1",
             "org": "DeepSeek",
-            "lo": 136.04,
+            "lo": 136.51,
             "hi": 140.21
           },
           {
             "date": "2025-04-28",
-            "eci": 139.15,
+            "eci": 139.17,
             "name": "Qwen3-235B-A22B",
             "org": "Alibaba",
-            "lo": 134.62,
-            "hi": 140.53
+            "lo": 135.3,
+            "hi": 140.64
           },
           {
             "date": "2025-05-28",
-            "eci": 141.13,
+            "eci": 141.16,
             "name": "DeepSeek-R1 (May 2025)",
             "org": "DeepSeek",
-            "lo": 139.05,
-            "hi": 142.66
+            "lo": 139.09,
+            "hi": 142.7
           },
           {
             "date": "2025-07-25",
-            "eci": 143.76,
+            "eci": 143.77,
             "name": "Qwen3-235B-A22B-Thinking (Jul 2025)",
             "org": "Alibaba",
-            "lo": 141.71,
-            "hi": 145.3
+            "lo": 141.82,
+            "hi": 145.19
           },
           {
             "date": "2025-09-29",
-            "eci": 144.91,
+            "eci": 144.93,
             "name": "DeepSeek-V3.2-Exp",
             "org": "DeepSeek",
-            "lo": 142.45,
-            "hi": 146.81
+            "lo": 142.57,
+            "hi": 147.02
           },
           {
             "date": "2025-11-06",
-            "eci": 145.82,
+            "eci": 145.84,
             "name": "Kimi K2 Thinking",
             "org": "Moonshot",
-            "lo": 143.22,
-            "hi": 147.51
+            "lo": 143.3,
+            "hi": 147.47
           },
           {
             "date": "2025-12-01",
-            "eci": 146.09,
+            "eci": 146.1,
             "name": "DeepSeek-V3.2",
             "org": "DeepSeek",
-            "lo": 144.27,
-            "hi": 147.38
+            "lo": 144.18,
+            "hi": 147.24
           },
           {
             "date": "2026-01-27",
-            "eci": 148.07,
+            "eci": 148.1,
             "name": "Kimi K2.5",
             "org": "Moonshot",
-            "lo": 146.55,
-            "hi": 149.52
+            "lo": 146.34,
+            "hi": 149.48
           },
           {
             "date": "2026-04-07",
             "eci": 149.82,
             "name": "GLM-5.1",
             "org": "Z.ai (Zhipu AI)",
-            "lo": 147.66,
-            "hi": 151.89
+            "lo": 147.78,
+            "hi": 151.87
           },
           {
             "date": "2026-04-20",
-            "eci": 150.94,
+            "eci": 151.0,
             "name": "Kimi K2.6",
             "org": "Moonshot",
-            "lo": 149.04,
-            "hi": 152.72
+            "lo": 149.06,
+            "hi": 152.73
           },
           {
             "date": "2026-05-19",
-            "eci": 154.04,
+            "eci": 154.08,
             "name": "Qwen3.7-Max",
             "org": "Alibaba",
-            "lo": 152.3,
-            "hi": 156.5
+            "lo": 152.35,
+            "hi": 156.69
           },
           {
             "date": "2026-07-16",
             "eci": 157.86,
             "name": "Kimi K3",
             "org": "Moonshot",
-            "lo": 155.11,
-            "hi": 160.63
+            "lo": 155.29,
+            "hi": 160.95
+          },
+          {
+            "date": "2026-10-17",
+            "eci": 158.65,
+            "name": "DeepSeek V4.1 Flash 1017",
+            "org": "DeepSeek",
+            "lo": 156.28,
+            "hi": 161.79
           }
         ],
         "fit": {
-          "slope": 1.1696074771451181,
-          "intercept": 120.15152654060313,
-          "r2": 0.9738112573214763,
-          "n": 16
+          "slope": 1.1627511066101548,
+          "intercept": 120.25864560659932,
+          "r2": 0.9775618921859215,
+          "n": 17
         },
-        "models_in_scope": 62,
-        "latest_release": "2026-09-09"
+        "models_in_scope": 63,
+        "latest_release": "2026-10-17"
       }
     },
     "method": "Unweighted OLS per record-setting release day since January 2024; horizontal lag at newest Chinese frontier ECI."

@@ -72,7 +72,9 @@ def compile_snapshot(raw: str, checked: dt.datetime | None = None,
     previous = previous or {}
     source_sha = hashlib.sha256(raw.encode("utf-8")).hexdigest()
     if previous.get("sha256_source_csv") == source_sha:
-        source_changed = previous.get("source_changed_at_utc") or previous.get("retrieved_at_utc")
+        source_changed = (previous.get("source_content_last_changed_at_utc")
+                          or previous.get("source_changed_at_utc")
+                          or previous.get("retrieved_at_utc"))
     else:
         source_changed = checked.isoformat(timespec="seconds")
     reader = csv.DictReader(io.StringIO(raw))

@@ -27,6 +27,27 @@ class ModelTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             compile_snapshot("Model,eci\nthing,7\n")
 
+    def test_unchanged_source_preserves_original_change_time(self):
+        from datetime import datetime, timezone
+        header = "Model,date,eci,eci_ci_low,eci_ci_high,Country (of organization),Organization"
+        rows = []
+        for i in range(8):
+            date = "2024-%02d-01" % (i + 1)
+            for country, offset in (("United States of America", 130), ("China", 126)):
+                score = offset + i * 1.2
+                rows.append("Model%s,%s,%.2f,%.2f,%.2f,%s,Lab" % (
+                    i, date, score, score - 1, score + 1, country
+                ))
+        csv = "\n".join([header] + rows * 8) + "\n"
+        first = compile_snapshot(csv, checked=datetime(2026, 10, 28, tzinfo=timezone.utc))
+        second = compile_snapshot(csv, checked=datetime(2026, 10, 29, tzinfo=timezone.utc), previous=first)
+        third = compile_snapshot(csv, checked=datetime(2026, 10, 30, tzinfo=timezone.utc), previous=second)
+        for version in (second, third):
+            self.assertEqual(version["source_content_last_changed_at_utc"],
+                             first["source_content_last_changed_at_utc"])
+            self.assertNotEqual(version["retrieved_at_utc"],
+                                first["retrieved_at_utc"])
+
     def test_data_reduction(self):
         # The scenario is an explanatory model, not evidence: restricting
         # Chinese stock without changing US stock cannot decrease U.S. lead.

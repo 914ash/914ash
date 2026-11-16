@@ -2,7 +2,7 @@
 
 A reproducible, source-linked interpretation of **Tim Fist, Georgia Adamson, and Konstantin Pilz**, [*How to Increase America's AI Lead Over China*](https://ifp.org/how-to-increase-americas-ai-lead-over-china/), Institute for Progress, published **October 19, 2026**.
 
-**Latest structural assumptions/source audit:** [November 9, 2026 review](AUDIT-2026-11-09.md) (including Epoch's November 4 Bayesian methodology transition); previous [November 2 review](AUDIT-2026-11-02.md). Read these before interpreting a newly refreshed ECI score as real national capability movement or a structural compute/policy change.
+**Latest structural assumptions/source audit:** [November 16, 2026 review](AUDIT-2026-11-16.md) (Epoch Nov 12 chip-import timing revision, Nov 13 procurement/cloud-tenancy evidence, and Nov 16 ECI receipt); previous [November 9](AUDIT-2026-11-09.md) (Nov 4 Bayesian methodology transition) and [November 2](AUDIT-2026-11-02.md). Check the dated provenance before interpreting a new fitted ECI lead as national capability movement or changing the structural compute/policy model.
 
 **Status of public deployment:** GitHub Pages must be enabled in **Settings → Pages → Build and deployment → Source: GitHub Actions**. The first workflow successfully tested and refreshed Epoch data but correctly skipped the Pages deployment while Pages was disabled. Once enabled, manually rerun [the workflow](https://github.com/914ash/914ash/actions/workflows/ai-frontier-monitor.yml), or wait for the next daily run. The expected URL *after an actual successful deployment* is https://914ash.github.io/914ash/ . Do **not** assume that URL is active before seeing a successful Pages deployment.
 
